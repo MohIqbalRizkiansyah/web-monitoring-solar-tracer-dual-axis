@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "installCommand": "npm ci --prefix frontend",
-  "buildCommand": "npm run build --prefix frontend",
-  "outputDirectory": "frontend/dist"
+  "installCommand": "pnpm install --frozen-lockfile --prod=false",
+  "buildCommand": "pnpm run build",
+  "outputDirectory": "dist"
 }
